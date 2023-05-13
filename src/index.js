@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
+import Info from './info.js';
+import About from './about.js';
+import Interest from './interest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-  <h1>Hello!</h1>
-  </>
+    <>
+<Info />
+<About/>
+<Interest />
+    </>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -4,6 +4,7 @@ import './index.scss';
 import Info from './info.js';
 import About from './about.js';
 import Interest from './interest';
+import Footer from './footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
 <Info />
 <About/>
 <Interest />
+<Footer/>
     </>
 );
 

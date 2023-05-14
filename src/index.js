@@ -8,12 +8,12 @@ import Footer from './footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <>
-<Info />
-<About/>
-<Interest />
-<Footer/>
-    </>
+    <div class="card">
+        <Info />
+        <About />
+        <Interest />
+        <Footer />
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function

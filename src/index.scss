@@ -1,5 +1,33 @@
 $myColor: rgb(84, 45, 45);
+@mixin button {
+  background-color: #f2cafa;
+  color: #fff;
+  margin:2px;
+  padding:5px;
+  border-radius: 5px;
+  border-color: #00000053;
+  font-weight: bold;
+}
 
+button{
+ @include button;
+}
+a{
+  text-decoration: none;
+  color:#870977;
+}
 h1 {
   color: $myColor;
+}
+.card{
+  text-align:center;
+  background-color: #b1cffa;
+  border-radius: 5px;
+  padding: 10px;
+  height:max-content;
+  width:50%;
+}
+
+img{
+  align-self: center;
 }

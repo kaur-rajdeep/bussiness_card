@@ -6,13 +6,14 @@
 
 $myColor: rgb(84, 45, 45);
 @mixin button {
-  background-color: #fef9ff;
+  background-color: #fff;
   color: #fff;
   margin:2px;
   padding:5px;
   border-radius: 5px;
-  border-color: #00000053;
+  border-color: #00000075;
   font-weight: bold;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.461);
 }
 
 button{
@@ -47,4 +48,10 @@ img{
   align-self: center;
   border-radius: 50px;
   margin: 5px;
+}
+
+h3{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+  padding: 0;
 }
